@@ -147,11 +147,11 @@ del{
     }
 
     .icon-link{
-        font-size: 3px;
+        font-size: 30px;
     }
 
     .fs-3{
-        font-size:  calc(0.810rem + .6vw)!important;
+        font-size:  calc(1.810rem + .6vw)!important;
     }
     
     .fs-1 {
