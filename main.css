@@ -98,12 +98,18 @@ del{
 }
 
 .modal-content .modal-body button:hover{
-    background-color: rgb(68, 180, 68);
+    background-color: #198754;
     border: none;
 }
 
 .modal {
     --bs-modal-margin: 15rem;
+}
+
+.modal .btn{
+    --bs-btn-padding-x: 0.2rem;
+    --bs-btn-padding-y: 0.2rem;    
+    margin-bottom: 1.5rem!important;
 }
 
 @media (max-width: 767px) {
@@ -249,6 +255,10 @@ del{
 
     #eventos{
         padding-bottom: 245px;
+    }
+
+    #material .btn{
+        --bs-btn-font-size: 0.6rem;
     }
 
     div.col-md-10 .row{
