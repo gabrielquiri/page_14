@@ -205,4 +205,13 @@ del{
     .carousel-item img{
         height: 400px;
     }
+
+    div.col-md-10 .row{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+    }
+
+    .col-md-3{
+        width: 100%;
+    }
 }
