@@ -95,7 +95,7 @@ del{
     .p-4 {
         padding: 0.5rem !important;
     }
-    
+
     h1.section-title{
         font-size: 17px;
     }
@@ -164,12 +164,16 @@ del{
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
+    .p-4 {
+        padding: 0.5rem !important;
+    }
+
     h1.section-title{
-        font-size: 29px;
+        font-size: 25px;
     }
 
     .fs-3{
-        font-size:  calc(1.810rem + .6vw)!important;
+        font-size:  calc(1rem + .6vw)!important;
     }
 
     button.navbar-toggler{
@@ -219,6 +223,4 @@ del{
     .col-md-2{
         width: 20.938%;
     }
-    
-    
 }
