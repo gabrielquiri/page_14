@@ -55,6 +55,11 @@ textarea{
     display: inline;
 }
 
+.contador{
+    width: 15%;
+    margin: 0;
+}
+
 .social-links a {
     text-decoration: none;
 }
@@ -112,6 +117,15 @@ del{
     margin-bottom: 1.5rem!important;
 }
 
+.btn {
+    padding: 6px 3px;
+    font-size: 0.751rem;
+}
+
+strong {
+    display: block;
+}
+
 @media (max-width: 767px) {
     .modal {
         --bs-modal-margin: 1rem;
@@ -144,6 +158,12 @@ del{
     h2.section-title{
         margin-top: 20px;
         font-size: 20px;
+    }
+
+    .contador{
+        width: 9%;
+        margin: 0;
+        margin-left: 15px;
     }
 
     del{
@@ -277,5 +297,14 @@ del{
 
     .col-md-2{
         width: 20.938%;
+    }
+
+    .btn {
+        padding: 5px 5px;
+        font-size: 0.67rem;
+    }
+
+    strong{
+        display: block;
     }
 }
