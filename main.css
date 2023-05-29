@@ -157,10 +157,6 @@ del{
     .fs-1 {
             font-size: calc(0.9rem + 1.5vw)!important;
     }
-
-    .carousel-item img{
-        height: 230px;
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
@@ -200,10 +196,6 @@ del{
 
     #eventos{
         padding-bottom: 245px;
-    }
-
-    .carousel-item img{
-        height: 400px;
     }
 
     div.col-md-10 .row{
