@@ -301,10 +301,15 @@ strong {
 
     .btn {
         padding: 5px 5px;
-        font-size: 0.67rem;
+        font-size: 0.5rem;
     }
 
     strong{
         display: block;
+    }
+
+    .contador{
+        width: 14%;
+        padding: 0.01rem;
     }
 }
