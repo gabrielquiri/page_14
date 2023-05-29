@@ -214,4 +214,15 @@ del{
     .col-md-3{
         width: 100%;
     }
+
+    .col-md-10 {
+        flex: 0 0 auto;
+        width: 81.22%;
+    }
+
+    .col-md-2{
+        width: 18.78%;
+    }
+    
+    
 }
